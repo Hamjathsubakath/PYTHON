@@ -1,0 +1,9 @@
+a=int(input("enter num1:"))
+b=int(input("enter num2:"))
+c=int(input("enter num3:"))
+if((a>b and b>a) or (a>b and c<a)):
+    print(a)
+elif((b<a and b>c) or (b>a or b<c)):    
+    print(b)
+else:
+    print(c)
