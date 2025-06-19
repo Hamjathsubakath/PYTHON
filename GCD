@@ -1,0 +1,7 @@
+a=int(input("Enter any Number"))
+b=int(input("Enter any Number"))
+while(b!=0):
+     c=a%b 
+     a=b
+     b=c
+print("GCD is",a) 
